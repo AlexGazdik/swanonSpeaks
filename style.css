@@ -47,5 +47,10 @@ img{
         font-size: 2rem;
         margin-top:1rem
     }
-    
+    .main{
+        padding:1rem;
+    }
+    img{
+        width:40vw;
+    }
 }
