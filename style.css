@@ -7,6 +7,7 @@ html{
     font-size: 62.5%;
 }
 body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background-color: black;
     display: flex;
@@ -24,6 +25,7 @@ body{
     height:50vh;
     background-color: bisque;
     align-self: center;
+    box-shadow: .1rem .1rem 1rem .5rem rgb(72, 38, 135);
 }
 .quote{
     align-self: center;
@@ -34,11 +36,13 @@ body{
 }
 
 img{
+    box-shadow: .1rem .1rem 1rem 1rem rgb(43, 40, 40);
     border-radius: 1rem;
     width: 25vw;
     min-width:15vw;
 }
 .query{
+    box-shadow: .1rem .1rem 1rem .5rem rgb(43, 40, 40);
     margin-top: 5rem;
     width:25vw;
 }
