@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{padding:5rem;
+    border-radius: 1rem;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height:50vh;
+    background-color: bisque;
+    align-self: center;
+}
+.quote{
+    align-self: center;
+    font-size: 5rem;
+    margin-top:10rem;
+    text-align: center;
+    width:50vw;
+}
+
+img{
+    border-radius: 1rem;
+    width: 25vw;
+    min-width:15vw;
+}
+.query{
+    margin-top: 5rem;
+    width:25vw;
+}
